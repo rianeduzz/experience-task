@@ -1,0 +1,169 @@
+/* Rian Eduardo de Brito Prado */
+h1{
+    color: #000000;
+}
+div{
+    
+
+}
+header {
+    background-color: #47004d;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header h1 {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.grid img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+img{
+    height: 60%;
+}
+body{
+   background-color: #ffffff;
+}
+img{
+   
+    width: 25%;
+}
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    padding: 0;
+}
+#perfil section{
+    margin-top: 40px;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius:8px ;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+#perfil p h2 {
+    margin: 10px 0;
+}
+#perfil .experice{
+    height: 80%;
+}
+#perfil .img-icon{
+    height: 20%;
+
+}
+#tarefas{ 
+    padding-bottom: 40px;
+}
+#tarefas h1 {
+    margin: 30px;
+    font-size: 50px;
+}
+#tarefas img {
+    margin-bottom: 30px;
+    height: 120px;
+}
+#tarefas section {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 80px calc(100vw/ 9);
+}
+.tarefas p {
+    margin: 6px 0;
+}
+#tarefas ul {
+    list-style: none;
+}
+#tarefas .tarefas {
+    width: 250px;
+    height: 170px;
+    background-color: antiquewhite;
+    box-shadow: 2px 2px 2px rgb(83, 83, 83);
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+p {
+    color: #000000;
+}
+h2 {
+    color:#000000;
+}
+#galeria section {
+    margin-top: 40px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:  2px 2px 2px black;
+}
+#galeria h2 {
+    margin: 24px;
+
+}
+#galeria .img-xperience {
+    height: 120px;
+}
+#galeria div {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    gap: 12px;
+}
+#galeria div img {
+    width: 250px;
+    height: 120px;
+    border-radius: 4px;
+}
